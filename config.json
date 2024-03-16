@@ -1,0 +1,10 @@
+{
+    "uplink": {
+        "interface": "veth1"
+    },
+    "bridge": {
+        "interface": "tc-bridge", 
+        "ipv4_address": "192.168.0.1/24",
+        "member": ["veth3", "veth5"]
+    }
+}
